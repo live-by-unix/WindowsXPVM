@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { SignedIn, SignedOut, SignIn } from "@clerk/clerk-react";
-import Navbar from "@/components/studybuddies/Navbar";
-import ProfileForm from "@/components/studybuddies/ProfileForm";
-import BuddiesGrid from "@/components/studybuddies/BuddiesGrid";
+import Navbar from "@/components/FindABuddy/Navbar";
+import ProfileForm from "@/components/FindABuddy/ProfileForm";
+import BuddiesGrid from "@/components/FindABuddy/BuddiesGrid";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 
 export default function Profile() {
@@ -52,7 +52,7 @@ export default function Profile() {
 
       <footer className="border-t border-border">
         <div className="max-w-3xl mx-auto px-5 py-6 text-center text-xs text-muted-foreground">
-          StudyBuddies — connect with learners worldwide.
+          FindABuddy — connect with learners worldwide.
         </div>
       </footer>
     </div>

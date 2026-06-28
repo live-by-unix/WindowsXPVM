@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-blue-500 to-purple-500 flex items-center justify-center text-white text-sm font-bold">
               S
             </div>
-            <span className="font-semibold tracking-tight">StudyBuddies</span>
+            <span className="font-semibold tracking-tight">FindABuddy</span>
           </Link>
           <nav className="flex items-center gap-4">
             <Link to="/" className={linkCls("/")}>Browse</Link>
